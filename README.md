@@ -2,6 +2,10 @@
 
 This is a weather app that displays the current weather and daily weather forecast for a given location using OpenWeatherMap API and OpenStreetMap for map display.
 
+## Prerequisites
+
+- Node.js installed on your local machine.
+
 ## Features
 
 - Display of current weather information, including temperature, weather icon, wind speed, and precipitation.
@@ -27,13 +31,17 @@ This is a weather app that displays the current weather and daily weather foreca
 
 ## npm run dev
 
-4. Run the program on the given http e.g. http://localhost:5173/
+4. Open the given link in a browser, preferably Chrome or MS Edge e.g. http://localhost:5173/
 
 ## Usage
 
 - Please allow for the location permission, your location will not be stored anywhere
 - Click on the map to get weather information for a specific location.
 - If you run the program on a smaller screen you can scroll down to view the daily weather forecast for the next 7 days
+
+## Note
+
+- Weather info for some locations can't be retrieved (certain parts of Ukraine or really stranded positions on the map) in which case you will be provided with a message accordingly
 
 ## Credits
 
